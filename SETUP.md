@@ -16,3 +16,12 @@
 
 ## 发布
 重新登录 GitHub 后确认账号与现有仓库，再创建或使用对应的 用户名.github.io 仓库。
+
+## 公网发布完成
+- GitHub 登录成功，账号 baobooooo，凭据保存于系统钥匙串。
+- 创建公开仓库 baobooooo/baobooooo.github.io，推送 main。
+- 通过 GitHub API 启用 Pages，build_type=workflow。
+- 部署运行 37781603879 成功。
+- 为此仓库单独设置 Git HTTPS 代理端口 59527，修复旧端口导致的推送失败。
+- 首页、博客和 CSS 的公网内容检查完成。浏览器视觉检查因组件签名错误未完成。
+- 在线地址：https://baobooooo.github.io/

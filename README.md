@@ -21,4 +21,8 @@ GitHub Pages 静态个人主页与博客初始版本，无需安装依赖。
 6. 等待工作流成功，再验证 `https://用户名.github.io`。
 
 工作流只上传网页和样式文件，不上传初始化记录。
-当前尚未发布到公网。
+已发布：https://baobooooo.github.io/
+
+仓库：https://github.com/baobooooo/baobooooo.github.io
+
+后续更新：修改网页后执行 `git add .`、`git commit -m "Update website"`、`git push`，GitHub Actions 会自动发布。
